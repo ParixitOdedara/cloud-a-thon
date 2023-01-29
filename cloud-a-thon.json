@@ -1,0 +1,12 @@
+{
+    "gcp": {
+        "project_id": "cloud-a-thon-376117",
+        "zone": "asia-south1-c"
+    },
+    "aws": {
+        "project_id": "aws_demo_project"
+    },
+    "azure": {
+        "project_id": "azure_demo_project"
+    }
+}
