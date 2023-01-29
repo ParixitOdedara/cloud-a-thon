@@ -23,3 +23,15 @@ python get_instance_metadata.py instance-1
 # Example - Fetch specific metadata key. For ex. 'zone'
 python get_instance_metadata.py instance-1 zone
 ```
+
+## fetch_value_from_nested_obj
+
+`fetch_value_from_nested_obj` function is part of `Utilities` class of the `common.utilities` module. The function can be used to traverse and locate the value of a desired key inside a nested object (Python Dictionary).
+
+### Tests
+
+To test the function for various scenarios, use the unittests written inside `test_common.test_utilities` test module.
+
+```bash
+python -m unittest test_common/test_utilities.py
+```
